@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>feedback</title>
+      <link rel="icon" type="image/x-icon" href="C:\Users\vivek\OneDrive\Desktop\WTA\download.png">
+     
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   </head>
+   <body>
+    <div class="container">
+      <div><a href="C:\Users\vivek\OneDrive\Desktop\WTA\prize.html">Home</a></div>
+        <div class="text">Responsive FeedBack  Form</div>
+        
+        <form name="myform" action="C:\Users\vivek\OneDrive\Desktop\WTA\prize.html" onsubmit="return myFunction()" method="post">
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">First Name</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required>
+                 <div class="underline"></div>
+                 <label for="">Last Name</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" placeholder="email@xyz.com" required required>
+                 <div class="underline"></div>
+                 <label for="">Email Address</label>
+              </div>
+             
+           </div>
+           <div class="form-row">
+              <div class="input-data textarea">
+                 <textarea rows="8" cols="80" required></textarea>
+                 <div ><input type="submit" value="Submit"></div>
+                
+                 <br />
+                 <div class="underline"></div>
+                 <label for="">Write your message</label>
+                 <br />
+                 <script>
+                  
+                  function myFunction() {
+                           alert("suceesfully submited");
+                           }
+                  </script>
+              </div>
+           </div>
+        </form>
+     </div>
+   </body>
+</html>
